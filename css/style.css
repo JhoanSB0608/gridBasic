@@ -44,12 +44,64 @@ body {
 .item_1 {
     background: purple;
     grid-area: menu;
-}
-
-.item_1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.item_1 .item_1usuario .bx {
+    font-size: 1.5vw;
+}
+
+.item_1 .item_1usuario .bxs-user-circle{
+    font-size: 3.5vw;
+}
+
+.item_1menu {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.item_1 .item_1menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.item_1 .item_1menu ul li {
+    padding: 1vw;
+}
+
+.item_1 .item_1usuario ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.item_1 .item_1usuario div {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.item_1 .item_1usuario li {
+    list-style: none;
+}
+
+.item_1 .item_1usuario :nth-child(1) li {
+    padding: 1vw;
+}
+
+.item_1usuario {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item_1usuario ul {
+    display: flex;
+    align-items: center;
 }
 
 .item_2 {
