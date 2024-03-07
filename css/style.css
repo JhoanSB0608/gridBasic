@@ -134,6 +134,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 5px;
 }
 
 .div1Item2{
@@ -146,6 +147,10 @@ body {
 .imgItem2{
     display: flex;
     align-items: center;
+    font-size: 35px;
+}
+.imgItem2 i{
+    font-size: 35px;
 }
 
 .imgItem2 > *{
@@ -155,16 +160,17 @@ body {
 .circleItem2{
     background: rgb(0, 0, 0);
     height: 100%;
-    border-radius: 100px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: white;
+    font-size: 15px;
 }
 
-.circleItem2 > p{
-    font-weight: 700;
-    color: var(--color-secundary);
-}
+
 
 .div2Item2{
     height: 80%;
@@ -182,16 +188,24 @@ body {
 
 .circleRightItem2{
     background: rgb(0, 0, 0);
-    height: 32%;
-    border-radius: 100px;
-    display: flex;
+    border-radius: 50%;
     align-items: center;
     justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    left: 60%;
 }
+
 
 .circleRightItem2 > p{
     font-weight: 700;
     color: var(--color-secundary);
+    display: flex;
+    justify-content:  right;
 }
 
 .item_3 {
@@ -263,7 +277,6 @@ body {
     border-radius: 100%;
     width: 30px;
     height: 30px;
-    rotate: 45deg;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,7 +294,7 @@ body {
 
 .item_6 {
     grid-area: devs;
-    padding: 10px;
+    padding: 5px;
     background-color: var(--verde-pera);
     height: 100%;
 }
